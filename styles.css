@@ -1,0 +1,56 @@
+:root{
+    --Slate-300: #D5E1EF;
+    --White: #FFFFFF;
+    --Slate-500: #68778D;
+}
+html{
+    background-color: var(--Slate-300);
+}
+/* .container{
+    display: flex;
+  justify-content: center; 
+  align-items: center;  
+  height: 100vh;
+} */
+.card{
+    background-color: var(--White);
+    width:230px; 
+    text-align: center;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+    padding: 10px;
+    border-radius: 14px;
+
+}
+h3{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 22px;
+  line-height: 120%;
+  letter-spacing: 0;
+  font-style: normal;
+}
+p{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 13px;
+  font-weight: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-style:normal;
+  color: var(--Slate-500)
+}
+img{
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+}   
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
