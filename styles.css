@@ -2,6 +2,7 @@
     --Slate-300: #D5E1EF;
     --White: #FFFFFF;
     --Slate-500: #68778D;
+    --Slate-900: hsl(218, 44%, 22%);
 }
 html{
     background-color: var(--Slate-300);
@@ -32,6 +33,7 @@ h3{
   line-height: 120%;
   letter-spacing: 0;
   font-style: normal;
+  color:var(--Slate-900)
 }
 p{
   font-family: "Outfit", sans-serif;
