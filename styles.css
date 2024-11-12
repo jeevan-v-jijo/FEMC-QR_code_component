@@ -7,48 +7,57 @@
 html{
     background-color: var(--Slate-300);
 }
-/* .container{
-    display: flex;
-  justify-content: center; 
-  align-items: center;  
-  height: 100vh;
-} */
+.container{
+    padding:0 16px;
+    margin:0;
+}
 .card{
     background-color: var(--White);
-    width:230px; 
-    text-align: center;
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    /* line 18 and 19 is a technique to manage the size for smaller screens */
     
-    padding: 10px;
+    width:90%;
+   
+    max-width:288px;
+    text-align: center;
+    /* The next four lines is a technique to center the card in the screen */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 16px 16px 40px 16px;
     border-radius: 14px;
+    
 
 }
 h3{
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 22px;
+  font-weight: 800;
   line-height: 120%;
+  font-size: 22px;
   letter-spacing: 0;
   font-style: normal;
-  color:var(--Slate-900)
+  color:var(--Slate-900);
+  margin:0 0 16px 0;
 }
 p{
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-size: 13px;
-  font-weight: 15px;
+  font-size: 15px;
+  font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.2px;
   font-style:normal;
-  color: var(--Slate-500)
+  color: var(--Slate-500);
+  margin:0px;
+  
 }
 img{
-   height: 100%;
+   
    width: 100%;
    border-radius: 10px;
+   margin-bottom: 24px;
 }   
 .attribution{
     position: absolute;
